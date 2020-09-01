@@ -1,0 +1,24 @@
+{
+  "name": "@ComposableWeb/proto-raptor",
+  "version": "0.0.0",
+  "description": "Monorepo for rapid prototyping starters and tools",
+  "private": true,
+  "workspaces": [
+    "./starters/*"
+  ],
+  "main": "n/a",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelmord/proto-raptor.git"
+  },
+  "keywords": [],
+  "author": "Andreas Adam <andreas.adam@composableweb.com> (https://composableweb.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelmord/proto-raptor/issues"
+  },
+  "homepage": "https://github.com/pixelmord/proto-raptor#readme"
+}
