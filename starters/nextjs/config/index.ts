@@ -1,5 +1,6 @@
 import meta from './meta';
 
-export default {
+const Config = {
   ...meta,
 };
+export default Config;

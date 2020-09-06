@@ -1,45 +1,34 @@
 module.exports = {
-  parser: '@typescript-eslint/parser', // Specifies the ESLint parser
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
-    '@pacote/eslint-config-jest',
-  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   settings: {
     react: {
       version: 'detect',
     },
   },
-  env: {
-    browser: true,
-    node: true,
-    es6: true,
-  },
-  plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks', 'jsx-a11y'],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: 'module', // Allows for the use of imports
-  },
-  rules: {
-    'react/prop-types': 'off', // Disable prop-types as we use TypeScript for type checking
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
-    '@typescript-eslint/explicit-function-return-type': 'off',
-  },
-  overrides: [
-    // Override some TypeScript rules just for .js files
-    {
-      files: ['*.js'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off', //
-      },
-    },
+  extends: [
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
+    'plugin:jsx-a11y/recommended',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
   ],
+  rules: {
+    // Place to specify and overwrite ESLint rules
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+  },
+  plugins: ['@typescript-eslint', 'jsx-a11y', 'prettier'],
 };
