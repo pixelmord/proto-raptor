@@ -1,5 +1,19 @@
-# Proto Raptor - A toolset for getting started with "real" prototypes fast
+# Proto Raptor - A NextJS template for rapid prototyping
 
-As all boilerplates, starterkits are, this is as well very opinionated although flexible.
+As all boilerplates, starterkits are, this is very opinionated and flexible at the same time.
 
-It follows mostly a clone-copy-past workflow at the moment, however with the ongoing development of blitzJS for example, the recipes could be generator recipes and plugins.
+## Basics
+
+### SEO
+
+- NextSEO pre-configured
+- Sane defaults for meta tags not included in NextSEO
+- JSON-LD for articles and website
+
+## Content from MD(X) files
+
+This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
+
+The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+
+To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
