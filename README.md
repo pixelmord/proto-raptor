@@ -10,7 +10,7 @@ As all boilerplates, starterkits are, this is very opinionated and flexible at t
 - Sane defaults for meta tags not included in NextSEO
 - JSON-LD for articles and website
 
-## Content from MD(X) files
+## Content from MD files
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
 
