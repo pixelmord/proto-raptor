@@ -1,0 +1,2538 @@
+[
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/.eslintrc.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/@types/remark-html.d.ts",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 29,
+        "fix": { "range": [28, 28], "text": ";" }
+      }
+    ],
+    "errorCount": 1,
+    "warningCount": 0,
+    "fixableErrorCount": 1,
+    "fixableWarningCount": 0,
+    "source": "declare module 'remark-html'\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/commitlint.config.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/Container/Container.tsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/Container/index.tsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/alert.tsx",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 9,
+        "column": 15,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 9,
+        "endColumn": 38
+      }
+    ],
+    "errorCount": 1,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import { Container } from 'components/Container';\n\nimport { EXAMPLE_PATH } from '../lib/constants';\n\ntype Props = {\n  preview?: boolean;\n};\n\nconst Alert = ({ preview }: Props) => {\n  return (\n    <div>\n      <Container>\n        <div className=\"py-2 text-center text-sm\">\n          {preview ? (\n            <>\n              This page is a preview.{' '}\n              <a href=\"/api/exit-preview\" className=\"underline hover:text-cyan duration-200 transition-colors\">\n                Click here\n              </a>{' '}\n              to exit preview mode.\n            </>\n          ) : (\n            <>\n              The source code for this blog is{' '}\n              <a\n                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}\n                className=\"underline hover:text-success duration-200 transition-colors\"\n              >\n                available on GitHub\n              </a>\n              .\n            </>\n          )}\n        </div>\n      </Container>\n    </div>\n  );\n};\n\nexport default Alert;\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/avatar.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 15,
+        "fix": { "range": [29, 29], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 18,
+        "fix": { "range": [47, 47], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 2,
+        "fix": { "range": [49, 49], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 6,
+        "column": 16,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 6,
+        "endColumn": 45
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 4,
+        "fix": { "range": [296, 296], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 13,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 2,
+        "fix": { "range": [298, 298], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 15,
+        "column": 22,
+        "nodeType": null,
+        "endLine": 15,
+        "endColumn": 22,
+        "fix": { "range": [321, 321], "text": ";" }
+      }
+    ],
+    "errorCount": 7,
+    "warningCount": 0,
+    "fixableErrorCount": 6,
+    "fixableWarningCount": 0,
+    "source": "type Props = {\n  name: string\n  picture: string\n}\n\nconst Avatar = ({ name, picture }: Props) => {\n  return (\n    <div className=\"flex items-center\">\n      <img src={picture} className=\"w-12 h-12 rounded-full mr-4\" alt={name} />\n      <div className=\"text-xl font-bold\">{name}</div>\n    </div>\n  )\n}\n\nexport default Avatar\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/cover-image.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 29,
+        "fix": { "range": [28, 28], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 16,
+        "fix": { "range": [60, 60], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 14,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 14,
+        "fix": { "range": [74, 74], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 6,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 6,
+        "endColumn": 16,
+        "fix": { "range": [90, 90], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 7,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 7,
+        "endColumn": 2,
+        "fix": { "range": [92, 92], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 9,
+        "column": 20,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 9,
+        "endColumn": 52
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `(⏎····<img⏎······src={src}⏎······alt={`Cover·Image·for·${title}`}⏎····/>⏎··)` with `<img·src={src}·alt={`Cover·Image·for·${title}`}·/>;`",
+        "line": 10,
+        "column": 17,
+        "nodeType": null,
+        "endLine": 15,
+        "endColumn": 4,
+        "fix": { "range": [164, 240], "text": "<img src={src} alt={`Cover Image for ${title}`} />;" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 26,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 26,
+        "endColumn": 4,
+        "fix": { "range": [465, 465], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 27,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 27,
+        "endColumn": 2,
+        "fix": { "range": [467, 467], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 29,
+        "column": 26,
+        "nodeType": null,
+        "endLine": 29,
+        "endColumn": 26,
+        "fix": { "range": [494, 494], "text": ";" }
+      }
+    ],
+    "errorCount": 10,
+    "warningCount": 0,
+    "fixableErrorCount": 9,
+    "fixableWarningCount": 0,
+    "source": "import Link from 'next/link'\n\ntype Props = {\n  title: string\n  src: string\n  slug?: string\n}\n\nconst CoverImage = ({ title, src, slug }: Props) => {\n  const image = (\n    <img\n      src={src}\n      alt={`Cover Image for ${title}`}\n    />\n  )\n  return (\n    <div className=\"sm:mx-0\">\n      {slug ? (\n        <Link as={`/posts/${slug}`} href=\"/posts/[slug]\">\n          <a aria-label={title}>{image}</a>\n        </Link>\n      ) : (\n        image\n      )}\n    </div>\n  )\n}\n\nexport default CoverImage\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/date-formatter.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 44,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 44,
+        "fix": { "range": [43, 43], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 21,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 21,
+        "fix": { "range": [80, 80], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 2,
+        "fix": { "range": [82, 82], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 7,
+        "column": 23,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 7,
+        "endColumn": 49
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 8,
+        "column": 36,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 36,
+        "fix": { "range": [170, 170], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 9,
+        "column": 75,
+        "nodeType": null,
+        "endLine": 9,
+        "endColumn": 75,
+        "fix": { "range": [245, 245], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 10,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 10,
+        "endColumn": 2,
+        "fix": { "range": [247, 247], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 29,
+        "fix": { "range": [277, 277], "text": ";" }
+      }
+    ],
+    "errorCount": 8,
+    "warningCount": 0,
+    "fixableErrorCount": 7,
+    "fixableWarningCount": 0,
+    "source": "import { parseISO, format } from 'date-fns'\n\ntype Props = {\n  dateString: string\n}\n\nconst DateFormatter = ({ dateString }: Props) => {\n  const date = parseISO(dateString)\n  return <time dateTime={dateString}>{format(date, 'LLLL\td, yyyy')}</time>\n}\n\nexport default DateFormatter\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/footer.tsx",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 4,
+        "column": 16,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 4,
+        "endColumn": 21
+      }
+    ],
+    "errorCount": 1,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import { Container } from 'components/Container';\nimport { EXAMPLE_PATH } from '../lib/constants';\n\nconst Footer = () => {\n  return (\n    <footer className=\"bg-accent-1 border-t border-accent-2\">\n      <Container>\n        <div className=\"py-28 flex flex-col lg:flex-row items-center\">\n          <h3 className=\"text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2\">\n            Statically Generated with Next.js.\n          </h3>\n          <div className=\"flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2\">\n            <a\n              href=\"https://nextjs.org/docs/basic-features/pages\"\n              className=\"mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0\"\n            >\n              Read Documentation\n            </a>\n            <a\n              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}\n              className=\"mx-3 font-bold hover:underline\"\n            >\n              View on GitHub\n            </a>\n          </div>\n        </div>\n      </Container>\n    </footer>\n  );\n};\n\nexport default Footer;\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/header.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 29,
+        "fix": { "range": [28, 28], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 3,
+        "column": 16,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 3,
+        "endColumn": 21
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 11,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 11,
+        "endColumn": 4,
+        "fix": { "range": [281, 281], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 2,
+        "fix": { "range": [283, 283], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 14,
+        "column": 22,
+        "nodeType": null,
+        "endLine": 14,
+        "endColumn": 22,
+        "fix": { "range": [306, 306], "text": ";" }
+      }
+    ],
+    "errorCount": 5,
+    "warningCount": 0,
+    "fixableErrorCount": 4,
+    "fixableWarningCount": 0,
+    "source": "import Link from 'next/link'\n\nconst Header = () => {\n  return (\n    <h2 className=\"text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8\">\n      <Link href=\"/\">\n        <a className=\"hover:underline\">Blog</a>\n      </Link>\n      .\n    </h2>\n  )\n}\n\nexport default Header\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/hero-post.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 30,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 30,
+        "fix": { "range": [29, 29], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 45,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 45,
+        "fix": { "range": [74, 74], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 39,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 39,
+        "fix": { "range": [113, 113], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 29,
+        "fix": { "range": [142, 142], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 37,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 37,
+        "fix": { "range": [179, 179], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 8,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 16,
+        "fix": { "range": [211, 211], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 9,
+        "column": 21,
+        "nodeType": null,
+        "endLine": 9,
+        "endColumn": 21,
+        "fix": { "range": [232, 232], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 10,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 10,
+        "endColumn": 15,
+        "fix": { "range": [247, 247], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 11,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 11,
+        "endColumn": 18,
+        "fix": { "range": [265, 265], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 17,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 17,
+        "fix": { "range": [282, 282], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 13,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 15,
+        "fix": { "range": [297, 297], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 14,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 14,
+        "endColumn": 2,
+        "fix": { "range": [299, 299], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 16,
+        "column": 18,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 23,
+        "endColumn": 13
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎··title,⏎··coverImage,⏎··date,⏎··excerpt,⏎··author,⏎··slug,⏎` with `·title,·coverImage,·date,·excerpt,·author,·slug·`",
+        "line": 16,
+        "column": 20,
+        "nodeType": null,
+        "endLine": 23,
+        "endColumn": 1,
+        "fix": { "range": [320, 381], "text": " title, coverImage, date, excerpt, author, slug " }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 46,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 46,
+        "endColumn": 4,
+        "fix": { "range": [1185, 1185], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 47,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 47,
+        "endColumn": 2,
+        "fix": { "range": [1187, 1187], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 49,
+        "column": 24,
+        "nodeType": null,
+        "endLine": 49,
+        "endColumn": 24,
+        "fix": { "range": [1212, 1212], "text": ";" }
+      }
+    ],
+    "errorCount": 17,
+    "warningCount": 0,
+    "fixableErrorCount": 16,
+    "fixableWarningCount": 0,
+    "source": "import Avatar from './avatar'\nimport DateFormatter from './date-formatter'\nimport CoverImage from './cover-image'\nimport Link from 'next/link'\nimport Author from '../types/author'\n\ntype Props = {\n  title: string\n  coverImage: string\n  date: string\n  excerpt: string\n  author: Author\n  slug: string\n}\n\nconst HeroPost = ({\n  title,\n  coverImage,\n  date,\n  excerpt,\n  author,\n  slug,\n}: Props) => {\n  return (\n    <section>\n      <div className=\"mb-8 md:mb-16\">\n        <CoverImage title={title} src={coverImage} slug={slug} />\n      </div>\n      <div className=\"md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-20 md:mb-28\">\n        <div>\n          <h3 className=\"mb-4 text-4xl lg:text-6xl leading-tight\">\n            <Link as={`/posts/${slug}`} href=\"/posts/[slug]\">\n              <a className=\"hover:underline\">{title}</a>\n            </Link>\n          </h3>\n          <div className=\"mb-4 md:mb-0 text-lg\">\n            <DateFormatter dateString={date} />\n          </div>\n        </div>\n        <div>\n          <p className=\"text-lg leading-relaxed mb-4\">{excerpt}</p>\n          <Avatar name={author.name} picture={author.picture} />\n        </div>\n      </div>\n    </section>\n  )\n}\n\nexport default HeroPost\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/intro.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 44,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 44,
+        "fix": { "range": [43, 43], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 3,
+        "column": 15,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 3,
+        "endColumn": 20
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········Blog.⏎······` with `Blog.`",
+        "line": 6,
+        "column": 93,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 7,
+        "fix": { "range": [275, 296], "text": "Blog." }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎··········href=\"https://nextjs.org/\"⏎··········className=\"underline·hover:text-success·duration-200·transition-colors\"⏎········` with `·href=\"https://nextjs.org/\"·className=\"underline·hover:text-success·duration-200·transition-colors\"`",
+        "line": 11,
+        "column": 11,
+        "nodeType": null,
+        "endLine": 14,
+        "endColumn": 9,
+        "fix": {
+          "range": [436, 564],
+          "text": " href=\"https://nextjs.org/\" className=\"underline hover:text-success duration-200 transition-colors\""
+        }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 20,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 20,
+        "endColumn": 4,
+        "fix": { "range": [656, 656], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 21,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 21,
+        "endColumn": 2,
+        "fix": { "range": [658, 658], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 23,
+        "column": 21,
+        "nodeType": null,
+        "endLine": 23,
+        "endColumn": 21,
+        "fix": { "range": [680, 680], "text": ";" }
+      }
+    ],
+    "errorCount": 7,
+    "warningCount": 0,
+    "fixableErrorCount": 6,
+    "fixableWarningCount": 0,
+    "source": "import { CMS_NAME } from '../lib/constants'\n\nconst Intro = () => {\n  return (\n    <section className=\"flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12\">\n      <h1 className=\"text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8\">\n        Blog.\n      </h1>\n      <h4 className=\"text-center md:text-left text-lg mt-5 md:pl-8\">\n        A statically generated blog example using{' '}\n        <a\n          href=\"https://nextjs.org/\"\n          className=\"underline hover:text-success duration-200 transition-colors\"\n        >\n          Next.js\n        </a>{' '}\n        and {CMS_NAME}.\n      </h4>\n    </section>\n  )\n}\n\nexport default Intro\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/layout.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 28,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 28,
+        "fix": { "range": [27, 27], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 30,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 30,
+        "fix": { "range": [57, 57], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 26,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 26,
+        "fix": { "range": [83, 83], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 6,
+        "column": 20,
+        "nodeType": null,
+        "endLine": 6,
+        "endColumn": 20,
+        "fix": { "range": [119, 119], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 7,
+        "column": 28,
+        "nodeType": null,
+        "endLine": 7,
+        "endColumn": 28,
+        "fix": { "range": [147, 147], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 8,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 2,
+        "fix": { "range": [149, 149], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 10,
+        "column": 16,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 10,
+        "endColumn": 49
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 20,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 20,
+        "endColumn": 4,
+        "fix": { "range": [381, 381], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 21,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 21,
+        "endColumn": 2,
+        "fix": { "range": [383, 383], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 23,
+        "column": 22,
+        "nodeType": null,
+        "endLine": 23,
+        "endColumn": 22,
+        "fix": { "range": [406, 406], "text": ";" }
+      }
+    ],
+    "errorCount": 10,
+    "warningCount": 0,
+    "fixableErrorCount": 9,
+    "fixableWarningCount": 0,
+    "source": "import Alert from './alert'\nimport Footer from './footer'\nimport Meta from './meta'\n\ntype Props = {\n  preview?: boolean\n  children: React.ReactNode\n}\n\nconst Layout = ({ preview, children }: Props) => {\n  return (\n    <>\n      <Meta />\n      <div className=\"min-h-screen\">\n        <Alert preview={preview} />\n        <main>{children}</main>\n      </div>\n      <Footer />\n    </>\n  )\n}\n\nexport default Layout\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/meta.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 29,
+        "fix": { "range": [28, 28], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 63,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 63,
+        "fix": { "range": [91, 91], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 4,
+        "column": 14,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 4,
+        "endColumn": 19
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········rel=\"apple-touch-icon\"⏎········sizes=\"180x180\"⏎········href=\"/favicon/apple-touch-icon.png\"⏎·····` with `·rel=\"apple-touch-icon\"·sizes=\"180x180\"·href=\"/favicon/apple-touch-icon.png\"`",
+        "line": 7,
+        "column": 12,
+        "nodeType": null,
+        "endLine": 11,
+        "endColumn": 6,
+        "fix": {
+          "range": [147, 253],
+          "text": " rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/apple-touch-icon.png\""
+        }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········rel=\"icon\"⏎········type=\"image/png\"⏎········sizes=\"32x32\"⏎········href=\"/favicon/favicon-32x32.png\"⏎·····` with `·rel=\"icon\"·type=\"image/png\"·sizes=\"32x32\"·href=\"/favicon/favicon-32x32.png\"`",
+        "line": 12,
+        "column": 12,
+        "nodeType": null,
+        "endLine": 17,
+        "endColumn": 6,
+        "fix": {
+          "range": [268, 382],
+          "text": " rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon/favicon-32x32.png\""
+        }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········rel=\"icon\"⏎········type=\"image/png\"⏎········sizes=\"16x16\"⏎········href=\"/favicon/favicon-16x16.png\"⏎·····` with `·rel=\"icon\"·type=\"image/png\"·sizes=\"16x16\"·href=\"/favicon/favicon-16x16.png\"`",
+        "line": 18,
+        "column": 12,
+        "nodeType": null,
+        "endLine": 23,
+        "endColumn": 6,
+        "fix": {
+          "range": [397, 511],
+          "text": " rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon/favicon-16x16.png\""
+        }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········rel=\"mask-icon\"⏎········href=\"/favicon/safari-pinned-tab.svg\"⏎········color=\"#000000\"⏎·····` with `·rel=\"mask-icon\"·href=\"/favicon/safari-pinned-tab.svg\"·color=\"#000000\"`",
+        "line": 25,
+        "column": 12,
+        "nodeType": null,
+        "endLine": 29,
+        "endColumn": 6,
+        "fix": {
+          "range": [589, 689],
+          "text": " rel=\"mask-icon\" href=\"/favicon/safari-pinned-tab.svg\" color=\"#000000\""
+        }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········name=\"description\"⏎········content={`A·statically·generated·blog·example·using·Next.js·and·${CMS_NAME}.`}⏎·····` with `·name=\"description\"·content={`A·statically·generated·blog·example·using·Next.js·and·${CMS_NAME}.`}`",
+        "line": 35,
+        "column": 12,
+        "nodeType": null,
+        "endLine": 38,
+        "endColumn": 6,
+        "fix": {
+          "range": [1035, 1155],
+          "text": " name=\"description\" content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}"
+        }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 41,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 41,
+        "endColumn": 4,
+        "fix": { "range": [1237, 1237], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 42,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 42,
+        "endColumn": 2,
+        "fix": { "range": [1239, 1239], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 44,
+        "column": 20,
+        "nodeType": null,
+        "endLine": 44,
+        "endColumn": 20,
+        "fix": { "range": [1260, 1260], "text": ";" }
+      }
+    ],
+    "errorCount": 11,
+    "warningCount": 0,
+    "fixableErrorCount": 10,
+    "fixableWarningCount": 0,
+    "source": "import Head from 'next/head'\nimport { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'\n\nconst Meta = () => {\n  return (\n    <Head>\n      <link\n        rel=\"apple-touch-icon\"\n        sizes=\"180x180\"\n        href=\"/favicon/apple-touch-icon.png\"\n      />\n      <link\n        rel=\"icon\"\n        type=\"image/png\"\n        sizes=\"32x32\"\n        href=\"/favicon/favicon-32x32.png\"\n      />\n      <link\n        rel=\"icon\"\n        type=\"image/png\"\n        sizes=\"16x16\"\n        href=\"/favicon/favicon-16x16.png\"\n      />\n      <link rel=\"manifest\" href=\"/favicon/site.webmanifest\" />\n      <link\n        rel=\"mask-icon\"\n        href=\"/favicon/safari-pinned-tab.svg\"\n        color=\"#000000\"\n      />\n      <link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" />\n      <meta name=\"msapplication-TileColor\" content=\"#000000\" />\n      <meta name=\"msapplication-config\" content=\"/favicon/browserconfig.xml\" />\n      <meta name=\"theme-color\" content=\"#000\" />\n      <link rel=\"alternate\" type=\"application/rss+xml\" href=\"/feed.xml\" />\n      <meta\n        name=\"description\"\n        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}\n      />\n      <meta property=\"og:image\" content={HOME_OG_IMAGE_URL} />\n    </Head>\n  )\n}\n\nexport default Meta\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/more-stories.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 41,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 41,
+        "fix": { "range": [40, 40], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 33,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 33,
+        "fix": { "range": [73, 73], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 16,
+        "fix": { "range": [105, 105], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 6,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 6,
+        "endColumn": 2,
+        "fix": { "range": [107, 107], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 8,
+        "column": 21,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 8,
+        "endColumn": 42
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········More·Stories⏎······` with `More·Stories`",
+        "line": 11,
+        "column": 90,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 7,
+        "fix": { "range": [267, 295], "text": "More Stories" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 28,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 28,
+        "endColumn": 4,
+        "fix": { "range": [752, 752], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 29,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 29,
+        "endColumn": 2,
+        "fix": { "range": [754, 754], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 31,
+        "column": 27,
+        "nodeType": null,
+        "endLine": 31,
+        "endColumn": 27,
+        "fix": { "range": [782, 782], "text": ";" }
+      }
+    ],
+    "errorCount": 9,
+    "warningCount": 0,
+    "fixableErrorCount": 8,
+    "fixableWarningCount": 0,
+    "source": "import PostPreview from './post-preview'\nimport Post from '../types/post'\n\ntype Props = {\n  posts: Post[]\n}\n\nconst MoreStories = ({ posts }: Props) => {\n  return (\n    <section>\n      <h2 className=\"mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight\">\n        More Stories\n      </h2>\n      <div className=\"grid grid-cols-1 md:grid-cols-2 md:col-gap-16 lg:col-gap-32 row-gap-20 md:row-gap-32 mb-32\">\n        {posts.map((post) => (\n          <PostPreview\n            key={post.slug}\n            title={post.title}\n            coverImage={post.coverImage}\n            date={post.date}\n            author={post.author}\n            slug={post.slug}\n            excerpt={post.excerpt}\n          />\n        ))}\n      </div>\n    </section>\n  )\n}\n\nexport default MoreStories\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/post-body.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 58,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 58,
+        "fix": { "range": [57, 57], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 18,
+        "fix": { "range": [91, 91], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 2,
+        "fix": { "range": [93, 93], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 7,
+        "column": 18,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 7,
+        "endColumn": 41
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎········className={markdownStyles['markdown']}⏎········dangerouslySetInnerHTML={{·__html:·content·}}⏎·····` with `·className={markdownStyles['markdown']}·dangerouslySetInnerHTML={{·__html:·content·}}`",
+        "line": 10,
+        "column": 11,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 6,
+        "fix": {
+          "range": [199, 306],
+          "text": " className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}"
+        }
+      },
+      {
+        "ruleId": "@typescript-eslint/naming-convention",
+        "severity": 2,
+        "message": "Object Literal Property name `__html` must match one of the following formats: camelCase, PascalCase, UPPER_CASE",
+        "line": 12,
+        "column": 36,
+        "nodeType": "Identifier",
+        "messageId": "doesNotMatchFormat",
+        "endLine": 12,
+        "endColumn": 42
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 15,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 15,
+        "endColumn": 4,
+        "fix": { "range": [324, 324], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 16,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 16,
+        "endColumn": 2,
+        "fix": { "range": [326, 326], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 18,
+        "column": 24,
+        "nodeType": null,
+        "endLine": 18,
+        "endColumn": 24,
+        "fix": { "range": [351, 351], "text": ";" }
+      }
+    ],
+    "errorCount": 9,
+    "warningCount": 0,
+    "fixableErrorCount": 7,
+    "fixableWarningCount": 0,
+    "source": "import markdownStyles from './markdown-styles.module.css'\n\ntype Props = {\n  content: string\n}\n\nconst PostBody = ({ content }: Props) => {\n  return (\n    <div className=\"max-w-2xl mx-auto\">\n      <div\n        className={markdownStyles['markdown']}\n        dangerouslySetInnerHTML={{ __html: content }}\n      />\n    </div>\n  )\n}\n\nexport default PostBody\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/post-header.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 30,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 30,
+        "fix": { "range": [29, 29], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 45,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 45,
+        "fix": { "range": [74, 74], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 39,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 39,
+        "fix": { "range": [113, 113], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 37,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 37,
+        "fix": { "range": [150, 150], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 37,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 37,
+        "fix": { "range": [187, 187], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 8,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 16,
+        "fix": { "range": [219, 219], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 9,
+        "column": 21,
+        "nodeType": null,
+        "endLine": 9,
+        "endColumn": 21,
+        "fix": { "range": [240, 240], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 10,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 10,
+        "endColumn": 15,
+        "fix": { "range": [255, 255], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 11,
+        "column": 17,
+        "nodeType": null,
+        "endLine": 11,
+        "endColumn": 17,
+        "fix": { "range": [272, 272], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 2,
+        "fix": { "range": [274, 274], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 14,
+        "column": 20,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 14,
+        "endColumn": 67
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 33,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 33,
+        "endColumn": 4,
+        "fix": { "range": [931, 931], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 34,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 34,
+        "endColumn": 2,
+        "fix": { "range": [933, 933], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 36,
+        "column": 26,
+        "nodeType": null,
+        "endLine": 36,
+        "endColumn": 26,
+        "fix": { "range": [960, 960], "text": ";" }
+      }
+    ],
+    "errorCount": 14,
+    "warningCount": 0,
+    "fixableErrorCount": 13,
+    "fixableWarningCount": 0,
+    "source": "import Avatar from './avatar'\nimport DateFormatter from './date-formatter'\nimport CoverImage from './cover-image'\nimport PostTitle from './post-title'\nimport Author from '../types/author'\n\ntype Props = {\n  title: string\n  coverImage: string\n  date: string\n  author: Author\n}\n\nconst PostHeader = ({ title, coverImage, date, author }: Props) => {\n  return (\n    <>\n      <PostTitle>{title}</PostTitle>\n      <div className=\"hidden md:block md:mb-12\">\n        <Avatar name={author.name} picture={author.picture} />\n      </div>\n      <div className=\"mb-8 md:mb-16 sm:mx-0\">\n        <CoverImage title={title} src={coverImage} />\n      </div>\n      <div className=\"max-w-2xl mx-auto\">\n        <div className=\"block md:hidden mb-6\">\n          <Avatar name={author.name} picture={author.picture} />\n        </div>\n        <div className=\"mb-6 text-lg\">\n          <DateFormatter dateString={date} />\n        </div>\n      </div>\n    </>\n  )\n}\n\nexport default PostHeader\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/post-preview.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 30,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 30,
+        "fix": { "range": [29, 29], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 45,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 45,
+        "fix": { "range": [74, 74], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 39,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 39,
+        "fix": { "range": [113, 113], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 29,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 29,
+        "fix": { "range": [142, 142], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 37,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 37,
+        "fix": { "range": [179, 179], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 8,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 16,
+        "fix": { "range": [211, 211], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 9,
+        "column": 21,
+        "nodeType": null,
+        "endLine": 9,
+        "endColumn": 21,
+        "fix": { "range": [232, 232], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 10,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 10,
+        "endColumn": 15,
+        "fix": { "range": [247, 247], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 11,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 11,
+        "endColumn": 18,
+        "fix": { "range": [265, 265], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 17,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 17,
+        "fix": { "range": [282, 282], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 13,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 15,
+        "fix": { "range": [297, 297], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 14,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 14,
+        "endColumn": 2,
+        "fix": { "range": [299, 299], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 16,
+        "column": 21,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 23,
+        "endColumn": 13
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Replace `⏎··title,⏎··coverImage,⏎··date,⏎··excerpt,⏎··author,⏎··slug,⏎` with `·title,·coverImage,·date,·excerpt,·author,·slug·`",
+        "line": 16,
+        "column": 23,
+        "nodeType": null,
+        "endLine": 23,
+        "endColumn": 1,
+        "fix": { "range": [323, 384], "text": " title, coverImage, date, excerpt, author, slug " }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 40,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 40,
+        "endColumn": 4,
+        "fix": { "range": [950, 950], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 41,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 41,
+        "endColumn": 2,
+        "fix": { "range": [952, 952], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 43,
+        "column": 27,
+        "nodeType": null,
+        "endLine": 43,
+        "endColumn": 27,
+        "fix": { "range": [980, 980], "text": ";" }
+      }
+    ],
+    "errorCount": 17,
+    "warningCount": 0,
+    "fixableErrorCount": 16,
+    "fixableWarningCount": 0,
+    "source": "import Avatar from './avatar'\nimport DateFormatter from './date-formatter'\nimport CoverImage from './cover-image'\nimport Link from 'next/link'\nimport Author from '../types/author'\n\ntype Props = {\n  title: string\n  coverImage: string\n  date: string\n  excerpt: string\n  author: Author\n  slug: string\n}\n\nconst PostPreview = ({\n  title,\n  coverImage,\n  date,\n  excerpt,\n  author,\n  slug,\n}: Props) => {\n  return (\n    <div>\n      <div className=\"mb-5\">\n        <CoverImage slug={slug} title={title} src={coverImage} />\n      </div>\n      <h3 className=\"text-3xl mb-3 leading-snug\">\n        <Link as={`/posts/${slug}`} href=\"/posts/[slug]\">\n          <a className=\"hover:underline\">{title}</a>\n        </Link>\n      </h3>\n      <div className=\"text-lg mb-4\">\n        <DateFormatter dateString={date} />\n      </div>\n      <p className=\"text-lg leading-relaxed mb-4\">{excerpt}</p>\n      <Avatar name={author.name} picture={author.picture} />\n    </div>\n  )\n}\n\nexport default PostPreview\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/post-title.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 34,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 34,
+        "fix": { "range": [33, 33], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 23,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 23,
+        "fix": { "range": [72, 72], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 2,
+        "fix": { "range": [74, 74], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 7,
+        "column": 19,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 7,
+        "endColumn": 43
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 4,
+        "fix": { "range": [304, 304], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 13,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 2,
+        "fix": { "range": [306, 306], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 15,
+        "column": 25,
+        "nodeType": null,
+        "endLine": 15,
+        "endColumn": 25,
+        "fix": { "range": [332, 332], "text": ";" }
+      }
+    ],
+    "errorCount": 7,
+    "warningCount": 0,
+    "fixableErrorCount": 6,
+    "fixableWarningCount": 0,
+    "source": "import { ReactNode } from 'react'\n\ntype Props = {\n  children?: ReactNode\n}\n\nconst PostTitle = ({ children }: Props) => {\n  return (\n    <h1 className=\"text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-center md:text-left\">\n      {children}\n    </h1>\n  )\n}\n\nexport default PostTitle\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/components/section-separator.tsx",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 1,
+        "column": 26,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 1,
+        "endColumn": 31
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 56,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 56,
+        "fix": { "range": [88, 88], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 2,
+        "fix": { "range": [90, 90], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 32,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 32,
+        "fix": { "range": [123, 123], "text": ";" }
+      }
+    ],
+    "errorCount": 4,
+    "warningCount": 0,
+    "fixableErrorCount": 3,
+    "fixableWarningCount": 0,
+    "source": "const SectionSeparator = () => {\n  return <hr className=\"border-accent-2 mt-28 mb-24\" />\n}\n\nexport default SectionSeparator\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/cypress/integration/home.spec.ts",
+    "messages": [
+      {
+        "ruleId": "mocha/no-hooks-for-single-case",
+        "severity": 1,
+        "message": "Unexpected use of Mocha `before` hook for a single test case",
+        "line": 5,
+        "column": 3,
+        "nodeType": "Identifier",
+        "endLine": 5,
+        "endColumn": 9
+      }
+    ],
+    "errorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import { createYield } from 'typescript';\n\n// eslint-disable @typescript-eslint/no-var-requires\ndescribe('HomePage', () => {\n  before(() => {\n    cy.visit('/');\n  });\n  it('has a link to display/edit Partner Business Card', () => {\n    cy.get('ul > li > a').contains('Partner Business Card');\n  });\n});\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/cypress/plugins/index.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/cypress/support/commands.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/cypress/support/index.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/jest.config.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/lib/api.ts",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 7,
+        "column": 8,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingReturnType",
+        "endLine": 7,
+        "endColumn": 31
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 11,
+        "column": 8,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingReturnType",
+        "endLine": 11,
+        "endColumn": 67
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 40,
+        "column": 8,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingReturnType",
+        "endLine": 40,
+        "endColumn": 51
+      }
+    ],
+    "errorCount": 3,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import fs from 'fs';\nimport { join } from 'path';\nimport matter from 'gray-matter';\n\nconst postsDirectory = join(process.cwd(), '_content/posts');\n\nexport function getPostSlugs() {\n  return fs.readdirSync(postsDirectory);\n}\n\nexport function getPostBySlug(slug: string, fields: string[] = []) {\n  const realSlug = slug.replace(/\\.md$/, '');\n  const fullPath = join(postsDirectory, `${realSlug}.md`);\n  const fileContents = fs.readFileSync(fullPath, 'utf8');\n  const { data, content } = matter(fileContents);\n\n  type Items = {\n    [key: string]: string;\n  };\n\n  const items: Items = {};\n\n  // Ensure only the minimal needed data is exposed\n  fields.forEach((field) => {\n    if (field === 'slug') {\n      items[field] = realSlug;\n    }\n    if (field === 'content') {\n      items[field] = content;\n    }\n\n    if (data[field]) {\n      items[field] = data[field];\n    }\n  });\n\n  return items;\n}\n\nexport function getAllPosts(fields: string[] = []) {\n  const slugs = getPostSlugs();\n  const posts = slugs\n    .map((slug) => getPostBySlug(slug, fields))\n    // sort posts by date in descending order\n    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));\n  return posts;\n}\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/lib/constants.ts",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 54,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 54,
+        "fix": { "range": [53, 53], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 35,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 35,
+        "fix": { "range": [88, 88], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 205,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 205,
+        "fix": { "range": [326, 326], "text": ";" }
+      }
+    ],
+    "errorCount": 3,
+    "warningCount": 0,
+    "fixableErrorCount": 3,
+    "fixableWarningCount": 0,
+    "source": "export const EXAMPLE_PATH = 'blog-starter-typescript'\nexport const CMS_NAME = 'Markdown'\nexport const HOME_OG_IMAGE_URL =\n  'https://og-image.now.sh/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/lib/markdownToHtml.ts",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 28,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 28,
+        "fix": { "range": [27, 27], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 31,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 31,
+        "fix": { "range": [58, 58], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 4,
+        "column": 16,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingReturnType",
+        "endLine": 4,
+        "endColumn": 63
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 60,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 60,
+        "fix": { "range": [184, 184], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 6,
+        "column": 27,
+        "nodeType": null,
+        "endLine": 6,
+        "endColumn": 27,
+        "fix": { "range": [211, 211], "text": ";" }
+      }
+    ],
+    "errorCount": 5,
+    "warningCount": 0,
+    "fixableErrorCount": 4,
+    "fixableWarningCount": 0,
+    "source": "import remark from 'remark'\nimport html from 'remark-html'\n\nexport default async function markdownToHtml(markdown: string) {\n  const result = await remark().use(html).process(markdown)\n  return result.toString()\n}\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/local-https-server.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/next-env.d.ts",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/next.config.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/pages/_app.tsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/pages/_document.tsx",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 71,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 71,
+        "fix": { "range": [70, 70], "text": ";" }
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 4,
+        "column": 3,
+        "nodeType": "FunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 4,
+        "endColumn": 11
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 13,
+        "column": 6,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 6,
+        "fix": { "range": [283, 283], "text": ";" }
+      }
+    ],
+    "errorCount": 3,
+    "warningCount": 0,
+    "fixableErrorCount": 2,
+    "fixableWarningCount": 0,
+    "source": "import Document, { Html, Head, Main, NextScript } from 'next/document'\n\nexport default class MyDocument extends Document {\n  render() {\n    return (\n      <Html lang=\"en\">\n        <Head />\n        <body>\n          <Main />\n          <NextScript />\n        </body>\n      </Html>\n    )\n  }\n}\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/pages/index.tsx",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 15,
+        "column": 15,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 15,
+        "endColumn": 39
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 45,
+        "column": 31,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 45,
+        "endColumn": 42
+      }
+    ],
+    "errorCount": 2,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import { Container } from 'components/Container';\nimport MoreStories from '../components/more-stories';\nimport HeroPost from '../components/hero-post';\nimport Intro from '../components/intro';\nimport Layout from '../components/layout';\nimport { getAllPosts } from '../lib/api';\nimport Head from 'next/head';\nimport { CMS_NAME } from '../lib/constants';\nimport Post from '../types/post';\n\ntype Props = {\n  allPosts: Post[];\n};\n\nconst Index = ({ allPosts }: Props) => {\n  const heroPost = allPosts[0];\n  const morePosts = allPosts.slice(1);\n  return (\n    <>\n      <Layout>\n        <Head>\n          <title>Next.js Blog Example with {CMS_NAME}</title>\n        </Head>\n        <Container>\n          <Intro />\n          {heroPost && (\n            <HeroPost\n              title={heroPost.title}\n              coverImage={heroPost.coverImage}\n              date={heroPost.date}\n              author={heroPost.author}\n              slug={heroPost.slug}\n              excerpt={heroPost.excerpt}\n            />\n          )}\n          {morePosts.length > 0 && <MoreStories posts={morePosts} />}\n        </Container>\n      </Layout>\n    </>\n  );\n};\n\nexport default Index;\n\nexport const getStaticProps = async () => {\n  const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt']);\n\n  return {\n    props: { allPosts },\n  };\n};\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/pages/posts/[slug].tsx",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 22,
+        "column": 14,
+        "nodeType": "ArrowFunctionExpression",
+        "messageId": "missingReturnType",
+        "endLine": 22,
+        "endColumn": 54
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'morePosts' is defined but never used. Allowed unused args must match /^_/u.",
+        "line": 22,
+        "column": 23,
+        "nodeType": "Identifier",
+        "messageId": "unusedVar",
+        "endLine": 22,
+        "endColumn": 32
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 60,
+        "column": 8,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingReturnType",
+        "endLine": 60,
+        "endColumn": 57
+      },
+      {
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
+        "severity": 2,
+        "message": "Missing return type on function.",
+        "line": 74,
+        "column": 8,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingReturnType",
+        "endLine": 74,
+        "endColumn": 39
+      },
+      {
+        "ruleId": "@typescript-eslint/no-shadow",
+        "severity": 2,
+        "message": "'posts' is already declared in the upper scope.",
+        "line": 78,
+        "column": 23,
+        "nodeType": "Identifier",
+        "messageId": "noShadow",
+        "endLine": 78,
+        "endColumn": 28
+      }
+    ],
+    "errorCount": 5,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import { useRouter } from 'next/router';\nimport ErrorPage from 'next/error';\nimport { Container } from 'components/Container';\n\nimport PostBody from '../../components/post-body';\nimport Header from '../../components/header';\nimport PostHeader from '../../components/post-header';\nimport Layout from '../../components/layout';\nimport { getPostBySlug, getAllPosts } from '../../lib/api';\nimport PostTitle from '../../components/post-title';\nimport Head from 'next/head';\nimport { CMS_NAME } from '../../lib/constants';\nimport markdownToHtml from '../../lib/markdownToHtml';\nimport PostType from '../../types/post';\n\ntype Props = {\n  post: PostType;\n  morePosts: PostType[];\n  preview?: boolean;\n};\n\nconst Post = ({ post, morePosts, preview }: Props) => {\n  const router = useRouter();\n  if (!router.isFallback && !post?.slug) {\n    return <ErrorPage statusCode={404} />;\n  }\n  return (\n    <Layout preview={preview}>\n      <Container>\n        <Header />\n        {router.isFallback ? (\n          <PostTitle>Loading…</PostTitle>\n        ) : (\n          <>\n            <article className=\"mb-32\">\n              <Head>\n                <title>\n                  {post.title} | Next.js Blog Example with {CMS_NAME}\n                </title>\n                <meta property=\"og:image\" content={post.ogImage.url} />\n              </Head>\n              <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} />\n              <PostBody content={post.content} />\n            </article>\n          </>\n        )}\n      </Container>\n    </Layout>\n  );\n};\n\nexport default Post;\n\ntype Params = {\n  params: {\n    slug: string;\n  };\n};\n\nexport async function getStaticProps({ params }: Params) {\n  const post = getPostBySlug(params.slug, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage']);\n  const content = await markdownToHtml(post.content || '');\n\n  return {\n    props: {\n      post: {\n        ...post,\n        content,\n      },\n    },\n  };\n}\n\nexport async function getStaticPaths() {\n  const posts = getAllPosts(['slug']);\n\n  return {\n    paths: posts.map((posts) => {\n      return {\n        params: {\n          slug: posts.slug,\n        },\n      };\n    }),\n    fallback: false,\n  };\n}\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/prettier.config.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/styles/index.ts",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/styles/prism.ts",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/test/__mocks__/fileMock.js",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/test/setup.ts",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/test/utils.tsx",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/types/author.ts",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 2,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 2,
+        "endColumn": 15,
+        "fix": { "range": [30, 30], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 3,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 3,
+        "endColumn": 18,
+        "fix": { "range": [48, 48], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 2,
+        "fix": { "range": [50, 50], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 6,
+        "column": 22,
+        "nodeType": null,
+        "endLine": 6,
+        "endColumn": 22,
+        "fix": { "range": [73, 73], "text": ";" }
+      }
+    ],
+    "errorCount": 4,
+    "warningCount": 0,
+    "fixableErrorCount": 4,
+    "fixableWarningCount": 0,
+    "source": "type Author = {\n  name: string\n  picture: string\n}\n\nexport default Author\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/andreasadam/workspace/proto-raptor/types/post.ts",
+    "messages": [
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 1,
+        "column": 30,
+        "nodeType": null,
+        "endLine": 1,
+        "endColumn": 30,
+        "fix": { "range": [29, 29], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 4,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 4,
+        "endColumn": 15,
+        "fix": { "range": [63, 63], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 5,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 5,
+        "endColumn": 16,
+        "fix": { "range": [79, 79], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 6,
+        "column": 15,
+        "nodeType": null,
+        "endLine": 6,
+        "endColumn": 15,
+        "fix": { "range": [94, 94], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 7,
+        "column": 21,
+        "nodeType": null,
+        "endLine": 7,
+        "endColumn": 21,
+        "fix": { "range": [115, 115], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 8,
+        "column": 17,
+        "nodeType": null,
+        "endLine": 8,
+        "endColumn": 17,
+        "fix": { "range": [132, 132], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 9,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 9,
+        "endColumn": 18,
+        "fix": { "range": [150, 150], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 11,
+        "column": 16,
+        "nodeType": null,
+        "endLine": 11,
+        "endColumn": 16,
+        "fix": { "range": [179, 179], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 12,
+        "column": 4,
+        "nodeType": null,
+        "endLine": 12,
+        "endColumn": 4,
+        "fix": { "range": [183, 183], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 13,
+        "column": 18,
+        "nodeType": null,
+        "endLine": 13,
+        "endColumn": 18,
+        "fix": { "range": [201, 201], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 14,
+        "column": 2,
+        "nodeType": null,
+        "endLine": 14,
+        "endColumn": 2,
+        "fix": { "range": [203, 203], "text": ";" }
+      },
+      {
+        "ruleId": "prettier/prettier",
+        "severity": 2,
+        "message": "Insert `;`",
+        "line": 16,
+        "column": 24,
+        "nodeType": null,
+        "endLine": 16,
+        "endColumn": 24,
+        "fix": { "range": [228, 228], "text": ";" }
+      }
+    ],
+    "errorCount": 12,
+    "warningCount": 0,
+    "fixableErrorCount": 12,
+    "fixableWarningCount": 0,
+    "source": "import Author from './author'\n\ntype PostType = {\n  slug: string\n  title: string\n  date: string\n  coverImage: string\n  author: Author\n  excerpt: string\n  ogImage: {\n    url: string\n  }\n  content: string\n}\n\nexport default PostType\n",
+    "usedDeprecatedRules": [
+      { "ruleId": "jest/no-try-expect", "replacedBy": ["no-conditional-expect"] },
+      { "ruleId": "jsx-a11y/accessible-emoji", "replacedBy": [] }
+    ]
+  }
+]

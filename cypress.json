@@ -1,0 +1,12 @@
+{
+  "defaultCommandTimeout": 3000,
+  "testFiles": "**/*.spec.ts",
+  "baseUrl": "https://0.0.0.0:4000",
+  "fixturesFolder": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

@@ -2,17 +2,31 @@
 
 As all boilerplates, starterkits are, this is very opinionated and flexible at the same time.
 
-## Basics
+## Features
 
-## i18n
+### Developer tooling
 
-- i18n with next-translate configured for en, de
+- [x] eslint
+- [x] jest
+- [x] prettier
+- [x] cypress
+- [x] local https
+- [x] husky
+- [x] lint-staged
+- [] deploy to vercel button
+- [x] commit linter
+- [x] semantic release
+- [] hygen templates
+
+### i18n
+
+- [x] i18n with next-translate configured for en, de
 
 ### SEO
 
-- NextSEO pre-configured
-- Sane defaults for meta tags not included in NextSEO
-- JSON-LD for articles and website
+- [] NextSEO pre-configured
+- [] Sane defaults for meta tags not included in NextSEO
+- [] JSON-LD for articles and website
 
 ## Content from MD files
 

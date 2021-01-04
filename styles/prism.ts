@@ -1,6 +1,7 @@
-import { mode } from '@chakra-ui/theme-tools';
+import { mode, GlobalStyleProps } from '@chakra-ui/theme-tools';
+import { SystemStyleObject } from '@chakra-ui/system';
 
-export const prismTheme = (props) => ({
+export const prismTheme = (props: GlobalStyleProps): SystemStyleObject => ({
   code: {
     whiteSpace: 'pre',
   },
@@ -14,12 +15,7 @@ export const prismTheme = (props) => ({
     wordBreak: 'normal',
     wordWrap: 'normal',
     lineHeight: 2,
-    MozTabSize: 4,
-    OTabSize: 4,
     tabSize: 4,
-    WebkitHyphens: 'none',
-    MozHyphens: 'none',
-    MsHyphens: 'none',
     hyphens: 'none',
     width: '100%',
   },

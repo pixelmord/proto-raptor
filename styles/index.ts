@@ -36,6 +36,7 @@ const theme: Theme = extendTheme({
         borderColor: mode('gray.200', 'whiteAlpha.300')(props),
         wordWrap: 'break-word',
       },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
       '#__next': {
         minHeight: '100vh',
       },

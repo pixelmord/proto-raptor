@@ -4,7 +4,8 @@
     "target": "es5",
     "module": "esnext",
     "jsx": "preserve",
-    "strict": true,
+    "strict": false,
+    "strictNullChecks": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,6 +17,6 @@
     "isolatedModules": true,
     "paths": { "components/*": ["components/*"], "lib/*": ["lib/*"], "styles/*": ["styles/*"], "types/*": ["types/*"] }
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "exclude": ["node_modules", "cypress"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./*.js", "./.*.js", "test/__mocks__/*.js"]
 }

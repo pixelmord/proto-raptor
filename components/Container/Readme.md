@@ -1,5 +1,5 @@
 ### Container (variant:'default')
 
 ```js
-  <Container />
+<Container />
 ```
