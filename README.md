@@ -4,6 +4,10 @@ As all boilerplates, starterkits are, this is very opinionated and flexible at t
 
 ## Basics
 
+## i18n
+
+- i18n with next-translate configured for en, de
+
 ### SEO
 
 - NextSEO pre-configured
